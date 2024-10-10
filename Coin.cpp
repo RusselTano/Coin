@@ -26,8 +26,10 @@ bool Coin::getFace() const
 
 void Coin::afficher() const
 {
-	if (face)cout << "Heads\n";
-	else cout << "Tails\n";
+	//if (face)cout << "Heads";
+	//else cout << "Tails";
+
+	cout << (face ? "Heads" : "Tails") << endl;
 }
 
 bool Coin::isHeads() const
