@@ -29,7 +29,7 @@ void Coin::afficher() const
 	//if (face)cout << "Heads";
 	//else cout << "Tails";
 
-	cout << (face ? "Heads" : "Tails") << endl;
+	cout << (face ? "Heads" : "Tails");
 }
 
 bool Coin::isHeads() const
