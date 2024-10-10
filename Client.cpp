@@ -13,43 +13,43 @@ int main() {
 	int countHeads = 0;
 	int countTails = 0;
 
-	//// Mesurer le temps pour le premier générateur aléatoire
-	//start = time(nullptr);
-	//for (int i = 0; i < 10000000; i++) {
-	//	c1.flip(); // Utiliser le générateur aléatoire standard
-	//	c1.isHeads() ? countHeads++ : countTails++;
-	//}
-	//end = time(nullptr);
+	// Mesurer le temps pour le premier générateur aléatoire
+	start = time(nullptr);
+	for (int i = 0; i < 10000000; i++) {
+		c1.flip(); // Utiliser le générateur aléatoire standard
+		c1.isHeads() ? countHeads++ : countTails++;
+	}
+	end = time(nullptr);
 
-	//cout << "Random C++ \n"
-	//	<< "Apres 10 000 000 flips\n"
-	//	<< "heads : " << countHeads << endl
-	//	<< "tails : " << countTails << endl
-	//	<< "difference : " << abs(countHeads - countTails)
-	//	<< "\nTemps d'execution : " << difftime(end, start) << " secondes" << endl << endl;
+	cout << "Random C++ \n"
+		<< "Apres 10 000 000 flips\n"
+		<< "heads : " << countHeads << endl
+		<< "tails : " << countTails << endl
+		<< "difference : " << abs(countHeads - countTails)
+		<< "\nTemps d'execution : " << difftime(end, start) << " secondes" << endl << endl;
 
-	//// Réinitialiser les compteurs pour Mersenne Twister
-	//countHeads = 0;
-	//countTails = 0;
+	// Réinitialiser les compteurs pour Mersenne Twister
+	countHeads = 0;
+	countTails = 0;
 
-	//// Mesurer le temps pour Mersenne Twister
-	//start = time(nullptr);
-	//for (int i = 0; i < 10000000; i++) {
-	//	c1.flipMT(); // Utiliser Mersenne Twister
-	//	c1.isHeads() ? countHeads++ : countTails++;
-	//}
-	//end = time(nullptr);
+	// Mesurer le temps pour Mersenne Twister
+	start = time(nullptr);
+	for (int i = 0; i < 10000000; i++) {
+		c1.flipMT(); // Utiliser Mersenne Twister
+		c1.isHeads() ? countHeads++ : countTails++;
+	}
+	end = time(nullptr);
 
-	//cout << "Random Mersenne Twister \n"
-	//	<< "Apres 10 000 000 flips\n"
-	//	<< "heads : " << countHeads << endl
-	//	<< "tails : " << countTails << endl
-	//	<< "difference : " << abs(countHeads - countTails)
-	//	<< "\nTemps d'execution : " << difftime(end, start) << " secondes" << endl << endl;
+	cout << "Random Mersenne Twister \n"
+		<< "Apres 10 000 000 flips\n"
+		<< "heads : " << countHeads << endl
+		<< "tails : " << countTails << endl
+		<< "difference : " << abs(countHeads - countTails)
+		<< "\nTemps d'execution : " << difftime(end, start) << " secondes" << endl << endl;
 
-	//// Réinitialiser les compteurs
-	//countHeads = 0;
-	//countTails = 0;
+	// Réinitialiser les compteurs
+	countHeads = 0;
+	countTails = 0;
 
 	cout << "*** La premiere cent a avoir 3 heads de suite (Boucle de 8 fois) ***\n";
 
