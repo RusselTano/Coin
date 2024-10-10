@@ -50,7 +50,8 @@
               "RelativeToolTip": "Coin.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T13:19:58.218Z"
+              "WhenOpened": "2024-10-09T13:19:58.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +61,10 @@
               "RelativeDocumentMoniker": "Coin.cpp",
               "ToolTip": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp",
               "RelativeToolTip": "Coin.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowCkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T13:19:55.43Z"
+              "WhenOpened": "2024-10-09T13:19:55.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,7 @@
               "RelativeDocumentMoniker": "Client.cpp",
               "ToolTip": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Client.cpp",
               "RelativeToolTip": "Client.cpp",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T13:19:54.426Z",
               "EditorCaption": ""

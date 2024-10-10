@@ -1,2 +1,3 @@
-﻿  Client.cpp
+﻿  Coin.cpp
+C:\Users\tanol.DYLANE\OneDrive - MONCCNB\2CCNB\Session1\C++\Cours\Coin\Coin.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Coin.vcxproj -> C:\Users\tanol.DYLANE\OneDrive - MONCCNB\2CCNB\Session1\C++\Cours\Coin\x64\Debug\Coin.exe

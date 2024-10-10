@@ -39,5 +39,5 @@ bool Coin::isHeads() const
 
 void Coin::flipMT()
 {
-	randMT.randInt(1);
+	face = randMT.randInt(1);
 }

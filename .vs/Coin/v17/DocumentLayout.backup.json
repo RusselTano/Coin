@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|solutionrelative:Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|solutionrelative:Coin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|solutionrelative:Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3C4BC16-58F1-49EC-9E38-55526E38D1CE}|Coin.vcxproj|C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -50,29 +50,31 @@
               "RelativeToolTip": "Coin.h",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-09T13:19:58.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Coin.cpp",
-              "DocumentMoniker": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp",
-              "RelativeDocumentMoniker": "Coin.cpp",
-              "ToolTip": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp",
-              "RelativeToolTip": "Coin.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-09T13:19:55.43Z"
+              "WhenOpened": "2024-10-09T13:19:58.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Coin.cpp",
+              "DocumentMoniker": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp",
+              "RelativeDocumentMoniker": "Coin.cpp",
+              "ToolTip": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Coin.cpp*",
+              "RelativeToolTip": "Coin.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-09T13:19:55.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Client.cpp",
               "DocumentMoniker": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Client.cpp",
               "RelativeDocumentMoniker": "Client.cpp",
               "ToolTip": "C:\\Users\\tanol.DYLANE\\OneDrive - MONCCNB\\2CCNB\\Session1\\C\u002B\u002B\\Cours\\Coin\\Client.cpp",
               "RelativeToolTip": "Client.cpp",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAmwCAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-09T13:19:54.426Z",
               "EditorCaption": ""
