@@ -6,6 +6,8 @@
 
 using namespace std;
 
+bool updateHeadsCount(Coin& coin, int& countHeads);
+
 int main() {
 	//Coin c1;
 	//time_t start;
@@ -50,63 +52,47 @@ int main() {
 
 	//================================================================================
 
-
 	Coin c1;
 	Coin c2;
 
-	string winner;
-
 	int countHeads1 = 0;
 	int countHeads2 = 0;
-
-	// Boucle qui répète 8 fois
+	int winner = 0; // 0: Pas de gagnant, 1: cent1, 2: cent2
 	int i = 0;
-	while (countHeads1 < 3 || countHeads2 < 3) {
-		// Faire un flip pour chaque cent
+
+	cout << "*** La premiere cent à avoir 3 heads de suite ***\n";
+	while (winner == 0) {
 		c1.flipMT();
 		c2.flipMT();
 
-		// Afficher le résultat des flips
-		cout << "cent1 : "; c1.afficher();
+		cout << i + 1 << "  cent1 : "; c1.afficher();
 		cout << " \t\tcent2 : "; c2.afficher();
 		cout << endl;
 
-		// Mise à jour du compteur pour cent1
-		if (c1.isHeads()) {
-			countHeads1++;
+		if (updateHeadsCount(c1, countHeads1)) {
+			winner = 1; // cent1 a gagné
 		}
-		else {
-			countHeads1 = 0; // Réinitialiser si ce n'est pas heads
+		else if (updateHeadsCount(c2, countHeads2)) {
+			winner = 2; // cent2 a gagné
 		}
 
-		// Mise à jour du compteur pour cent2
-		if (c2.isHeads()) {
-			countHeads2++;
-		}
-		else {
-			countHeads2 = 0; // Réinitialiser si ce n'est pas heads
-		}
 		i++;
 
-		// Vérifier si l'une des cent a eu 3 heads de suite
-		if (countHeads1 == 3) {
-			winner = "cent1";
-			break;
-		}
-		else if (countHeads2 == 3) {
-			winner = "cent2";
-			break;
-		}
-
 	}
-	cout << "*** La premiere cent à avoir 3 heads de suite ***\n";
-
-	if (winner == "cent1") cout << "La cent1 est la gagnante\n";
-	else if(winner == "cent2") cout << "La cent2 est la gagnante\n";
-
-	cout << "Apres " << i << " flips\n";
-
+		cout << "La " << (winner == 1 ? "cent1" : "cent2") << " est la gagnante\n"
+			 << "Apres " << i << " flips\n";
 
 	system("pause");
 	return 0;
+}
+
+
+bool updateHeadsCount(Coin& coin, int& countHeads) {
+	if (coin.isHeads()) {
+		countHeads++;
+	}
+	else {
+		countHeads = 0; // Réinitialiser si c'est tails
+	}
+	return countHeads == 3; // Retourne true si 3 heads consécutifs
 }
