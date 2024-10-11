@@ -50,7 +50,6 @@ int main() {
 
 	//================================================================================
 
-	cout << "*** La premiere cent à avoir 3 heads de suite (Boucle de 8 fois) ***\n";
 
 	Coin c1;
 	Coin c2;
@@ -61,7 +60,8 @@ int main() {
 	int countHeads2 = 0;
 
 	// Boucle qui répète 8 fois
-	for (int i = 0; i < 8; i++) {
+	int i = 0;
+	while (countHeads1 < 3 || countHeads2 < 3) {
 		// Faire un flip pour chaque cent
 		c1.flipMT();
 		c2.flipMT();
@@ -86,22 +86,27 @@ int main() {
 		else {
 			countHeads2 = 0; // Réinitialiser si ce n'est pas heads
 		}
+		i++;
 
 		// Vérifier si l'une des cent a eu 3 heads de suite
 		if (countHeads1 == 3) {
-			if (winner == "cent2") winner = "cent2";
 			winner = "cent1";
+			break;
 		}
 		else if (countHeads2 == 3) {
-			if (winner == "cent1") winner = "cent1";
 			winner = "cent2";
+			break;
 		}
+
 	}
+	cout << "*** La premiere cent à avoir 3 heads de suite ***\n";
 
 	if (winner == "cent1") cout << "La cent1 est la gagnante\n";
 	else if(winner == "cent2") cout << "La cent2 est la gagnante\n";
 
+	cout << "Apres " << i << " flips\n";
 
 
+	system("pause");
 	return 0;
 }
